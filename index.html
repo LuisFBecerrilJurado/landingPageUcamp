@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap">
     <link rel="stylesheet" href="./assets/css/Componentes/menu.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/Componentes/cards.css">
 </head>
 <body>
     <header class="header-container">
@@ -15,12 +17,12 @@
             <a class="main-logo" href="index.html">
                 <img src="./assets/img/logoCorazon.png" alt="logo Cafeteria" class="main-logo-imagen">
             </a>
-            <nav id="nav" class="main-nav" >
+            <nav id="nav" class="main-nav">
                 <div class="nav-links" >
-                    <a class="link-item" href="#" >Inicio</a>
-                    <a class="link-item" href="#" >Menu</a>
-                    <a class="link-item" href="#" >Clientes</a>
-                    <a class="link-item" href="#" >Contacto</a>
+                    <a class="link-item" href="#inicio">Inicio</a>
+                    <a class="link-item" href="#list">Menú</a>
+                    <a class="link-item" href="#clientes">Clientes</a>
+                    <a class="link-item" href="#contacto">Contacto</a>
                 </div>
             </nav>
             <button id="button-menu" class="button-menu" >
@@ -30,8 +32,26 @@
             </button>
         </div>
     </header>
-    <main>
-        <section class="inicio-container">
+    <main class="main-container">
+        <section class="inicio-container" id="inicio">
+            <div class="card-container">
+                <div>
+                    <h1 class="card-titulo">Corazón de Café
+                        <br><br>
+                        <p class="card-titulo-parrafo">Un gran lugar para tomar un break</p>
+                    </h1>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-descripcion">
+                    <p>Encontraras un lugar tranquilo para poder tomar un descanso despues de un día largo, para tomar inspiración para tu proximo gran proyecto</p>
+                </div>
+            </div>
+            <div class="card-container card-menu">
+                <a href="#list" class="a-link"><img src="./assets/img/cafe.png" alt="tasa de café" class="icono"><p class="a-descripcion">Nuestro Menú</p></a>
+            </div>
+        </section>
+        <section class="menu-container" id="menulist">
 
         </section>
     </main>

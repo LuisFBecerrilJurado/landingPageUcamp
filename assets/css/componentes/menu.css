@@ -6,13 +6,13 @@
   padding: 0 0.2rem;
   margin: 2rem;
   z-index: 0;
-  background-color: #444444b8;
+  position: sticky;
+  top: 0;
 }
 
 .main-logo-imagen {
-  height: 2rem;
+  height: 3rem;
   width: 100%;
-  padding: 1rem;
 }
 
 .main-nav {
@@ -39,8 +39,8 @@
   height: 100%;
   align-items: center;
   justify-content: flex-start;
-
 }
+
 
 .link-item {
   margin-top: 2rem;
@@ -60,6 +60,7 @@
   height: 3px;
   transition: 0.3s ease all;
 }
+
 
 .link-item:hover::after {
   width: 100%;

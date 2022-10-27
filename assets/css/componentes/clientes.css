@@ -1,0 +1,71 @@
+.clientes-titulo {
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: pacifico;
+  background-color: rgba(0, 0, 0, 0.822);
+  color: wheat;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.card-container-cliente {
+  max-width: calc(100% - 20%);
+  padding: 0 15px;
+  margin: 10rem 10% 0 10%;
+  height: auto;
+  text-align: center;
+  color: wheat;
+  font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    padding: 2.5rem 0;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card-cliente {
+    max-width: calc(100% - 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 2rem 0;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+    background-color: #624a3d9f;
+}
+
+
+.card-cliente:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.imagen-cliente{
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.cards::-webkit-scrollbar {
+    height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: wheat;
+}
+
+.cards::-webkit-scrollbar-track {
+  background:#624a3d;
+}

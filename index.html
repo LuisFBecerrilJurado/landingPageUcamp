@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/Componentes/cards.css" />
     <link rel="stylesheet" href="./assets/css/Componentes/listas.css">
+    <link rel="stylesheet" href="./assets/css/Componentes/clientes.css">
   </head>
   <body>
     <header class="header-container">
@@ -24,9 +25,9 @@
         </a>
         <nav id="nav" class="main-nav">
           <div class="nav-links">
-            <a class="link-item" href="#">Inicio</a>
+            <a class="link-item" href="#inicio">Inicio</a>
             <a class="link-item" href="#list">Menú</a>
-            <a class="link-item" href="#">Clientes</a>
+            <a class="link-item" href="#clientes">Clientes</a>
             <a class="link-item" href="#">Contacto</a>
           </div>
         </nav>
@@ -59,14 +60,14 @@
             </div>
             </div>
             <div class="card-container card-menu">
-            <a href="#list" class="a-link"
-                ><img
-                src="./assets/img/cafe.png"
-                alt="tasa de café"
-                class="icono"
-                />
-                <p class="a-descripcion">Nuestro Menú</p></a
-            >
+                <a href="#list" class="a-link">
+                    <img
+                        src="./assets/img/cafe.png"
+                        alt="tasa de café"
+                        class="icono"
+                    />
+                    <p class="a-descripcion">Nuestro Menú</p>
+                </a>
             </div>
         </section>
         <section class="menu-container" id="list">
@@ -144,10 +145,65 @@
                 </div>
             </div>
         </section>
-        <section class="clientes-container">
-            
+        <section class="clientes-container" id="clientes">
+            <h2 class="clientes-titulo">Opiniones de nuestros clientes</h2>
+            <div class="card-container-cliente">
+                <ul class="cards">
+                  <li class="card-cliente">
+                      <img src="./assets/img/Amanda.jpg" alt="Amanda" class="imagen-cliente">
+                    <div>
+                        <h3 class="cliente-nombre">Amanda</h3>
+                        <div class="cliente-opinion">
+                            <p>Por mucho, el mejor café que he probado</p>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="card-cliente">
+                    <img src="./assets/img/Alejandro.jpg" alt="Alejandro" class="imagen-cliente">
+                  <div>
+                      <h3 class="cliente-nombre">Alejandro</h3>
+                      <div class="cliente-opinion">
+                          <p>Detesto ponerle azúcar al café, y es el único lugar en México donde el frappé te lo preparan al momento y sin azúcar.</p>
+                      </div>
+                  </div>
+                </li>
+                  <li class="card-cliente">
+                        <img src="./assets/img/Elena.jpg" alt="Elena" class="imagen-cliente">
+                    <div>
+                        <h3 class="cliente-nombre">Elena</h3>
+                        <div class="cliente-opinion">
+                            <p>El ambiente de este lugar es muy agradable, los baristas son muy amables y la música crea un ambiente muy tranquilo.</p>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="card-cliente">
+                      <img src="./assets/img/Sofia.jpg" alt="Sofia" class="imagen-cliente">
+                    <div>
+                        <h3 class="cliente-nombre">Sofia</h3>
+                        <div class="cliente-opinion">
+                            <p>Es cómodo para trabajar o conversar. Tienen alimentos orgánicos y la atención es excelente</p>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="card-cliente">
+                    <img src="./assets/img/Estefania.jpg" alt="Estefania" class="imagen-cliente">
+                  <div>
+                      <h3 class="cliente-nombre">Estefania</h3>
+                      <div class="cliente-opinion">
+                          <p>Me queda muy cerca de la oficina para disfrutar un delicioso cafecito!!! el lugar es diferente y lindo de la zona y sobre todo tranquilo</p>
+                      </div>
+                  </div>
+                </li>
+                </ul>
+              </div>
+        </section>
+        <section class="contacto-container" id="contacto">
+
         </section>
     </main>
+    <footer>
+
+    </footer>
     <script type="module" src="./js/menu.js"></script>
   </body>
 </html>

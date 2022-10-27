@@ -1,60 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap">
-    <link rel="stylesheet" href="./assets/css/Componentes/menu.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/Componentes/cards.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap"/>
+    <link rel="stylesheet" href="./assets/css/Componentes/menu.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/Componentes/cards.css" />
+    <link rel="stylesheet" href="./assets/css/Componentes/listas.css">
+  </head>
+  <body>
     <header class="header-container">
-        <div class="main-header">
-            <a class="main-logo" href="index.html">
-                <img src="./assets/img/logoCorazon.png" alt="logo Cafeteria" class="main-logo-imagen">
-            </a>
-            <nav id="nav" class="main-nav">
-                <div class="nav-links" >
-                    <a class="link-item" href="#inicio">Inicio</a>
-                    <a class="link-item" href="#list">Menú</a>
-                    <a class="link-item" href="#clientes">Clientes</a>
-                    <a class="link-item" href="#contacto">Contacto</a>
-                </div>
-            </nav>
-            <button id="button-menu" class="button-menu" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+      <div class="main-header">
+        <a class="main-logo" href="index.html">
+          <img
+            src="./assets/img/logoCorazon.png"
+            alt="logo Cafeteria"
+            class="main-logo-imagen"
+          />
+        </a>
+        <nav id="nav" class="main-nav">
+          <div class="nav-links">
+            <a class="link-item" href="#">Inicio</a>
+            <a class="link-item" href="#list">Menú</a>
+            <a class="link-item" href="#">Clientes</a>
+            <a class="link-item" href="#">Contacto</a>
+          </div>
+        </nav>
+        <button id="button-menu" class="button-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
     <main class="main-container">
         <section class="inicio-container" id="inicio">
             <div class="card-container">
-                <div>
-                    <h1 class="card-titulo">Corazón de Café
-                        <br><br>
-                        <p class="card-titulo-parrafo">Un gran lugar para tomar un break</p>
-                    </h1>
-                </div>
+            <div>
+                <h1 class="card-titulo">
+                Corazón de Café <br /><br />
+                <p class="card-titulo-parrafo">
+                    Un gran lugar para tomar un break
+                </p>
+                </h1>
+            </div>
             </div>
             <div class="card-container">
-                <div class="card-descripcion">
-                    <p>Encontraras un lugar tranquilo para poder tomar un descanso despues de un día largo, para tomar inspiración para tu proximo gran proyecto</p>
-                </div>
+            <div class="card-descripcion">
+                <p>
+                Encontraras un lugar tranquilo para poder tomar un descanso
+                despues de un día largo, para tomar inspiración para tu proximo
+                gran proyecto
+                </p>
+            </div>
             </div>
             <div class="card-container card-menu">
-                <a href="#list" class="a-link"><img src="./assets/img/cafe.png" alt="tasa de café" class="icono"><p class="a-descripcion">Nuestro Menú</p></a>
+            <a href="#list" class="a-link"
+                ><img
+                src="./assets/img/cafe.png"
+                alt="tasa de café"
+                class="icono"
+                />
+                <p class="a-descripcion">Nuestro Menú</p></a
+            >
             </div>
         </section>
-        <section class="menu-container" id="menulist">
-
+        <section class="menu-container" id="list">
+            <h1 class="menu-lista-titulo box">Nuestros Cafés</h1>
+            <div class="cafes-izquierda">
+                <div class="lista1">
+                    <div class="cafe-cappuchino box">
+                        <img src="./assets/img/menu-item-1.jpg" alt="Tasa de Cafe tipo Capuchino" class="cappuchino-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Cappuchino Caliente</h3>
+                            <p class="precio">TC $25.00</p>
+                            <p class="precio">TG $40.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-americano box">
+                        <img src="./assets/img/menu-item-2.jpg" alt="Tasa de Cafe tipo Americano" class="americano-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Americano Caliente</h3>
+                            <p class="precio">TC $20.00</p>
+                            <p class="precio">TG $30.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-latte box">
+                        <img src="./assets/img/menu-item-3.jpg" alt="Tasa de Cafe tipo Latte" class="latte-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Latte Caliente</h3>
+                            <p class="precio">TC $30.00</p>
+                            <p class="precio">TG $40.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-espresso box">
+                        <img src="./assets/img/menu-item-4.jpg" alt="Tasa de Cafe tipo Espresso" class="espresso-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Espresso Caliente</h3>
+                            <p class="precio">TC $35.00</p>
+                            <p class="precio">TG $45.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cafes-derecha">
+                <div class="lista2">
+                    <div class="cafe-cappuchino-frio box">
+                        <img src="./assets/img/menu-item-5.jpg" alt="Tasa de Cafe tipo Capuchino" class="cappuchinoFrio-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Cappuchino Helado</h3>
+                            <p class="precio">TC $25.00</p>
+                            <p class="precio">TG $40.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-americano-frio box">
+                        <img src="./assets/img/menu-item-6.jpg" alt="Tasa de Cafe tipo Americano" class="americanoFrio-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Americano Helado</h3>
+                            <p class="precio">TC $20.00</p>
+                            <p class="precio">TG $30.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-latte-frio box">
+                        <img src="./assets/img/menu-item-7.jpg" alt="Tasa de Cafe tipo Latte" class="latteFrio-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Latte Helado</h3>
+                            <p class="precio">TC $30.00</p>
+                            <p class="precio">TG $40.00</p>
+                        </div>
+                    </div>
+                    <div class="cafe-espresso-frio box">
+                        <img src="./assets/img/menu-item-8.jpg" alt="Tasa de Cafe tipo Espresso" class="espressoFrio-imagen">
+                        <div class="cafe-descripcion">
+                            <h3 class="cafe-nombre">Espresso Helado</h3>
+                            <p class="precio">TC $35.00</p>
+                            <p class="precio">TG $45.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes-container">
+            
         </section>
     </main>
     <script type="module" src="./js/menu.js"></script>
-</body>
+  </body>
 </html>

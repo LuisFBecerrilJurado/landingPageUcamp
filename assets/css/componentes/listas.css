@@ -1,0 +1,210 @@
+.cafes-izquierda{
+    grid-area: izquierda;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    width: 100%;
+}
+
+.cafes-derecha{
+    grid-area: derecha;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+
+.menu-lista-titulo{
+    grid-area: titulo;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: pacifico;
+    font-size: 2rem;
+    color: wheat;
+    margin: auto;
+    height: 100%;
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+    "cappuchino"
+    "americano"
+    "latte"
+    "espresso";
+    margin-top: 2rem;
+    grid-gap: auto;
+    height: 80%;
+    padding: 0.5rem;
+    width:95%;
+    background-color: #ebdeb2;
+    border-radius: 5px;
+}
+
+.cafe-cappuchino {
+   grid-area: cappuchino;
+   grid-column: 1 / 3;
+   grid-row: 1 / 2;
+   display: grid;
+   grid-template-areas:
+   "imagen"
+   "descripcion";
+   grid-template-columns: 50% 50%;
+   grid-template-rows:100%;
+}
+
+.cappuchino-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+.cafe-descripcion{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.cafe-americano{
+    grid-area: americano;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.americano-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+.cafe-latte{
+    grid-area: latte;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.latte-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+.cafe-espresso{
+    grid-area: espresso;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.espresso-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+
+.lista2 {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+    "cappuchinoFrio"
+    "americanoFrio"
+    "latteFrio"
+    "espressoFrio";
+    grid-gap: auto;
+    height: 80%;
+    padding: 0.5rem;
+    width:95%;
+    background-color: #ebdeb2;
+    border-radius: 5px;
+}
+
+.cafe-cappuchino-frio{
+    grid-area: cappuchinoFrio;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.cappuchinoFrio-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+
+.cafe-americano-frio{
+    grid-area: americanoFrio;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.americanoFrio-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+.cafe-latte-frio{
+    grid-area: latteFrio;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.latteFrio-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}
+
+.cafe-espresso-frio{
+    grid-area: espressoFrio;
+    display: grid;
+    grid-template-areas:
+    "imagen"
+    "descripcion";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+}
+
+.espressoFrio-imagen{
+    grid-area: imagen;
+    height: 95%;
+    margin: auto;
+}

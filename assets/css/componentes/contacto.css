@@ -1,0 +1,137 @@
+.contactoIzquierda{
+    grid-area: contactoIzquierda;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 1rem;
+    margin: 1rem 2rem 1rem 0.5rem;
+    border-radius: 5%;
+    width: calc(100% - 4rem);
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.contactoDerecha{
+    grid-area: contactoDerecha;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    border-radius: 5%;
+    width: calc(100% - 4rem);
+    height: 60%;
+    background-color:  rgba(0, 0, 0, 0.711);
+}
+
+.contactoTitulo{
+    grid-area: contactoTitulo;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: pacifico;
+    font-size: 2rem;
+    color: wheat;
+    width: calc(100% - 50%);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
+    margin: 0 25%;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    height: calc(100% - 10%);
+    width: calc(100% - 10%);
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ubicacion-titulo{
+    font-size: 3.5rem;
+    margin:2rem 0;
+}
+
+.ubicacion-direccion{
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.ubicacion-medioscontacto{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+.ubicacion-telefono{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }

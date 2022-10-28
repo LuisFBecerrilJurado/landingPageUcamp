@@ -23,7 +23,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6rem 0;
+    padding: 6rem 0;
     z-index: -1;
 }
 

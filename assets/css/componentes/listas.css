@@ -2,13 +2,16 @@
     grid-area: izquierda;
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-    width: 100%;
+    width: 90%;
+    margin-left: 2rem;
 }
 
 .cafes-derecha{
     grid-area: derecha;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    width: 90%;
+    margin-left: 2rem;
 }
 
 

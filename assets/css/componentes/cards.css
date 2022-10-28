@@ -18,6 +18,7 @@
     color: wheat;
     margin-bottom: 1rem;
     font-stretch: expanded;
+    z-index: 0;
 }
 
 .card-titulo{
